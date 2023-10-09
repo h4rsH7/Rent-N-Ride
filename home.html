@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent-N-Ride</title>
+
+    <!-- To CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <a href="#" class="logo"><img src="img/Fleet.png" alt=""></a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#ride">Ride</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <!-- <li><a href="#reviews">Reviews</a></li> -->
+            </ul>
+        
+        
+        <div class="header-btn">
+        <!-- <a href="signup.html" class="sign-up">Sign Up</a>
+        <a href="login.html" class="sign-in">Sign In</a> -->
+        <button  class="sign-out" onclick="signOut()">Sign Out</button>
+    </div>
+    </header>
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="text">
+            <h1><span>Looking</span> to <br>rent a car</h1>
+            
+            <p><br>Rev up your adventures with Rent-N-Ride. Our mission is simple: provide you with the keys to unlock remarkable experiences. From zipping through city streets to conquering rugged terrains, our fleet of exceptional cars is ready to fuel your wanderlust. Seamless booking, top-notch service, and the freedom to explore await you. Let's hit the road and craft unforgettable moments, together.</p>
+
+            <div class="app-stores">
+                <img src="img/ios.png" alt="">
+                <img src="img/play.png" alt="">
+            </div>
+        </div>
+
+        <div class="form-container">
+            <form id="carRentalForm">
+                <div class="input-box">
+                    <label for="location"><span>Location</span></label>
+                    <select id="location" name="location">
+                        <option value="Vadodara">Vadodara</option>
+                        <option value="Ahmedabad">Ahmedabad</option>
+                        <option value="Surat">Surat</option>
+                        <option value="Rajkot">Rajkot</option>
+                    </select>
+                </div>
+                <div class="input-box">
+                    <span>Pick-Up Date</span>
+                    <input type="date" name="" id="" required>
+                </div>
+                <div class="input-box">
+                    <span>Return Date</span>
+                    <input type="date" name="" id="" required>
+                </div>
+                <input type="submit" name="" id="" class="btn">
+            </form>
+        </div>
+    </section>
+
+    <!-- Ride -->
+    <section class="ride" id="ride">
+        <div class="heading">
+            <span>How Its Work</span>
+            <h1>Rent With 3 Easy Steps</h1>
+        </div>
+        <div class="ride-container">
+            <div class="box">
+                <i class='bx bxs-map'></i>
+                <h2>Choose A Location</h2>
+                <p>Select from a variety of locations tailored to your preferences, whether it's the heart of the city or the tranquility of the countryside.</p>
+            </div>
+            <div class="box">
+                <i class='bx bxs-calendar-check'></i>
+                <h2>Pick-Up Date</h2>
+                <p>Pick the date that suits your schedule and sets the stage for your upcoming adventure, making your journey stress-free and convenient.</p>
+            </div>
+            <div class="box">
+                <i class='bx bxs-calendar-star'></i>
+                <h2>Book A Car</h2>
+                <p>With just a few clicks, you can book the perfect car for your journey. Our simple booking process ensures you're on the road to discovery in no time.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+
+    <section class="services" id="services">
+        <div class="heading">
+            <span>Best Services</span>
+            <h1>Explore Out Top Deals <br> From Top Rated Dealers</h1>
+        </div>
+        <div class="services-container">
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/car1.jpg" alt="">
+                </div>
+                <p>2018</p>
+                <h3>2018 Nexon</h3>
+                <h2>Rs41,00,000 | Rs25,000 <span>/month</span></h2>
+                <a href="html/selectedCar.html" class="btn">Rent Now</a>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/car2.jpg" alt="">
+                </div>
+                <p>2020</p>
+                <h3>2020 Mercedes</h3>
+                <h2>Rs90,00,000 | Rs90,000 <span>/month</span></h2>
+                <a href="html/selectedCar.html" class="btn">Rent Now</a>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/car3.webp" alt="">
+                </div>
+                <p>2018</p>
+                <h3>2018 Tesla</h3>
+                <h2>Rs90,00,000 | Rs45,000 <span>/month</span></h2>
+                <a href="html/selectedCar.html" class="btn">Rent Now</a>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/car4.jpg" alt="">
+                </div>
+                <p>2023</p>
+                <h3>2023 Fortuner</h3>
+                <h2>Rs61,00,000 | Rs60,000 <span>/month</span></h2>
+                <a href="html/selectedCar.html" class="btn">Rent Now</a>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/car5.jpg" alt="">
+                </div>
+                <p>2015</p>
+                <h3>2015 Thar</h3>
+                <h2>Rs41,00,000 | Rs25,000 <span>/month</span></h2>
+                <a href="html/selectedCar.html" class="btn">Rent Now</a>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/car6.jpg" alt="">
+                </div>
+                <p>2018</p>
+                <h3>2018 Jeep Compass</h3>
+                <h2>Rs49,00,000 | Rs40,000 <span>/month</span></h2>
+                <a href="html/selectedCar.html" class="btn">Rent Now</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="heading">
+            <span>About Us</span>
+            <h1>Best Customer Experience</h1>
+        </div>
+
+        <div class="about-container">
+            <div class="about-img">
+                <img src="img/about.png" alt="">
+            </div>
+
+            <div class="about-text">
+                <span>About Us</span>
+                <p>Welcome to our car rental platform! We are a team of three enthusiastic individuals who have come together to offer you a smooth and convenient car rental experience. Our platform is designed to simplify the process of renting a car, making it accessible and hassle-free for all.</p>
+
+                <p>In an age where flexibility and mobility are paramount, we recognized the need for a reliable car rental service that caters to a wide range of needs. Whether you're planning a weekend getaway, a business trip, or just need a temporary vehicle, our platform provides a diverse selection of cars to choose from, ensuring you find the perfect match for your journey.</p>
+
+                <p>Thank you for choosing our service, and we look forward to being a part of your next adventure!</p>
+                <a href="#reviews" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+
+    <section class="reviews" id="reviews">
+        <div class="heading">
+            <span>Developers</span>
+            <h1>Meet out developer</h1>
+        </div>
+
+        <div class="reviews-container">
+            <div class="box">
+                <div class="rev-img">
+                    <img src="img/rev1.jpeg" alt="">
+                </div>
+                <h2>Harsh Kumar</h2>
+                <div class="stars">
+                    <!-- <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i> -->
+                </div>
+                <p>Enrollment - 210306105013</p>
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <!-- NewsLetter -->
+    <section class="newsletter">
+        <h2>Subscribe To Newsletter</h2>
+
+        <div class="box">
+            <input type="text" placeholder="Enter Your Email">
+            <a href="#" class="btn">Subscribe</a>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>&#169:FleetEase All Rights Reserved</p>
+        <div class="social">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+        </div>
+    </div>
+
+    <!-- ScrollReveal -->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- JS file -->
+    <script src="main.js"></script>
+    <script src="JS/signout.js"></script>
+    <script src="JS/back.js"></script>
+</body>
+</html>
